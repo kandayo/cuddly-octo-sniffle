@@ -1,0 +1,37 @@
+h1 {
+  color: #363636;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  margin-bottom: 55px;
+}
+
+.grid.games {
+  align-content: center;
+  grid-column-gap: 31px;
+  grid-row-gap: 48px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+select {
+  background: #FFF url('/images/arrow-down-icon.svg') no-repeat;
+  background-position: right 15px top 50%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  border: 1px solid #E1E1E1;
+  color: #423B3B;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 19px;
+  margin-left: auto;
+  padding: 10px 18px;
+  width: 262px;
+}

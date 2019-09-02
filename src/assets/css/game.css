@@ -1,0 +1,50 @@
+img {
+  height: auto;
+  width: 180px;
+}
+
+.cover {
+  background: #EEE;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 25px 41px;
+}
+
+.details {
+  text-align: center;
+}
+
+h1 {
+  color: #746A6A;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.price {
+  color: #3486E6;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.add-to-cart {
+  color: #3487DC;
+  display: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: center;
+}
+
+.game:hover {
+  cursor: pointer;
+}
+
+.game:hover .details {
+  display: none;
+}
+
+.game:hover .add-to-cart {
+  display: block;
+}
